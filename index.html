@@ -480,7 +480,7 @@
 </label>
 <label class="modal-label">
   <span> Телефон</span>
-     <input type="text" name="user-phone" class="modal-input">
+     <input type="tel" name="user-phone" class="modal-input">
      <svg class="modal-icon" width="18" height="18" >
        <use href="./images/icons.svg#icon-phone-black"></use>
      </svg>
@@ -488,7 +488,7 @@
  </label>
  <label class="modal-label">
   <span> Почта</span>
-     <input type="text"  name="user-email" class="modal-input">
+     <input type="email"  name="user-email" class="modal-input">
      <svg class="modal-icon" width="18" height="18" >
        <use href="./images/icons.svg#icon-email-black"></use>
      </svg>
@@ -499,17 +499,18 @@
     <textarea class="modal-textarea" name="user-message"  rows="5" placeholder="введите текст"></textarea>
    </label>
    <div class="modal-agreement">
-   <label>
-     <input  id="user-checkbox"  class="checkbox visually-hidden" type="checkbox" name="user-checkbox">
+   <label class="label-agreement">
+     <input tabindex="-1"  id="user-checkbox"  class="checkbox visually-hidden" type="checkbox" name="user-checkbox">
      <span aria-labelledby="user-checkbox" class="modal-checkbox">
-       <svg class="modal-checkbox-icon" width="13" height="10">
+       <svg class="modal-checkbox-icon" width="16" height="15">
          <use href="./images/icons.svg#icon-vector"></use>
        </svg>
      </span>
-     Соглашаюсь с рассылкой и принимаю&nbsp; <a href="#"> Условия договора</a>
-    </label>
+     Соглашаюсь с рассылкой и принимаю&nbsp; <a class="modal-agreement-link" href="#"> Условия договора</a>
+     
+     </label>
   </div>
-     <button class="forma-btn button-order" type="submit">Отправить
+     <button class=" forma-btn button-order" type="submit">Отправить
      </button>
    
         </form>
