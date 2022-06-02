@@ -814,7 +814,9 @@ color: rgba(117, 117, 117, 0.5);
   
 
 } 
-
+.checkbox:focus + .modal-checkbox{
+  outline: #188ce8;
+}
 
 
 .modal-checkbox-icon {
