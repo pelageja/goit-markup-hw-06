@@ -593,7 +593,7 @@ address {
 
 
 .footer-input {
-  
+  padding: 15px;
   margin-right: 12px; 
  width:358px;
  height: 50px;
@@ -687,6 +687,7 @@ address {
   padding: 40px;
 }
 .modal-btn {
+  
   position: absolute;
   top: 8px;
   right: 8px;
@@ -701,6 +702,12 @@ address {
   justify-content: center;
 background-color: var(--fond-color);
 
+}
+.icon-close{
+  fill: var(--main-text-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover .icon-close,
 .modal-btn:focus .icon-close {
@@ -795,13 +802,21 @@ letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
 }
 .label-agreement {
-  display: flex;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+   display: flex;
   align-items: center;
    justify-content: center;
    margin-bottom: 30px;
   
 
-}
+} 
+
+
+
 .modal-checkbox-icon {
   fill:currentColor;
   display: flex;
@@ -835,12 +850,9 @@ letter-spacing: 0.03em;
 
  }
  .forma-btn {
+   display: block;
   padding: 10px 56px;
- position:absolute;
- left: 164px;
- top:491px;
- width: 200px;
- height: 50px;
+margin: auto;
  
 }
 
